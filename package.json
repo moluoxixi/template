@@ -1,0 +1,28 @@
+{
+  "name": "component",
+  "keywords": [
+    "component",
+    "前端",
+    "react",
+    "vue",
+    "组件"
+  ],
+  "author": "1983531544@qq.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moluoxixi/component.git"
+  },
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "installAll": "installAll.sh",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "^19.8.0",
+    "commitlint": "^19.8.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.5.0"
+  }
+}

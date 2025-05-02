@@ -1,0 +1,4 @@
+[submodule "nuxt"]
+	path = nuxt
+	url = https://github.com/moluoxixi-template/nuxt.git
+	branch = main
