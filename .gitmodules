@@ -6,3 +6,7 @@
 	path = vue-template-docs
 	url = https://github.com/moluoxixi-template/vue-template-docs.git
 	branch = main
+[submodule "vue-template"]
+	path = vue-template
+	url = https://github.com/moluoxixi-template/vue-template.git
+	branch = main

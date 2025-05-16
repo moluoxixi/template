@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "$(tput setaf 4)正在更新component项目... $(tput setaf 3)"
+echo "$(tput setaf 4)正在更新template项目... $(tput setaf 3)"
 # 切换到主分支
 git checkout main
 # 拉取主分支的最新更改
