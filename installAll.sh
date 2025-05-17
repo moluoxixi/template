@@ -14,7 +14,7 @@ echo "$(tput setaf 4)正在更新子模块... $(tput setaf 3)"
 git submodule update --init
 
 echo "$(tput setaf 4)正在下载子模块依赖... $(tput setaf 3)"
-git submodule foreach "git checkout main && git pull origin main && pnpm installAll"
+git submodule foreach "git checkout main && git pull origin main && pnpm install"
 
 echo "$(tput setaf 2)子模块依赖下载完毕"
 
